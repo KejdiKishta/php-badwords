@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./face_with_symbols_on_mouth.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* index */
+form {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.294);
+}
+
+form > * {
+    margin: 10px;
+    padding: 5px;
+}
+
+form > h4 {
+    text-align: center;
+    color: red;
+}
+
+/* result */
+.container > div {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title {
+    color: red;
+}
